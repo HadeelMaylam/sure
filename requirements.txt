@@ -1,5 +1,6 @@
 streamlit
 requests
+pymupdf
 fitz
 python-dotenv
 groq
