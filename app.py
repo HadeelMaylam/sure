@@ -14,7 +14,6 @@ client = Groq(api_key=groq_api_key)
 
 
 #-----------------
-@st.cache_data
 def process_cv_from_pdf(file_path):
     try:
         doc = fitz.open(file_path)
